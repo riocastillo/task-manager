@@ -1,0 +1,141 @@
+body{
+    background:rgb(171, 171, 171);
+}
+
+
+.container {
+    filter: drop-shadow(20px 0px 5px rgba(0, 0, 0, 0.3));
+  }
+  
+  .box {
+    padding: 20px 10px 5px;
+    display: inline-block;
+    text-align: center;
+    clip-path: polygon(0% 20%, 40% 20%, 50% 0%, 60% 20%, 100% 20%, 100% 100%, 0% 100%);
+    font: bold 32px system-ui;
+    background-color: #ffffff;
+    width:50%;
+    margin-top:5%;
+  }
+
+  .box:hover{
+    transform:scale(.9);
+  }
+  
+
+  h1{
+    font-family: 'Courgette', cursive;  
+    margin-bottom:0;
+    text-shadow: 3px 4px 2px rgba(0, 0, 0, 0.353);
+    font-size:60px;
+
+  }
+
+  .box p{
+    font-family: 'Secular One', sans-serif;
+    margin-top:0;
+  }
+
+  .main{
+    width:60%;
+    margin:auto;
+    text-align: center;
+  }
+
+  .tasksSection{
+    text-align: center;
+  }
+
+  input, button{
+    padding:5px;
+  }
+
+  input{
+    padding:15px;
+    border:none;
+    border-bottom:2px solid black;
+    margin-left:1%;
+    border-radius: 8px;
+    font-family: 'Source Code Pro', monospace;
+    width:24%;
+    box-shadow: 8px 10px 1px rgba(0, 0, 0, 0.548);
+
+  }
+
+  #enter{
+    background-color:rgba(0, 0, 0, 0);
+    background-image:url('enter.png');
+    background-repeat: no-repeat;
+    background-size:75%;
+    height:100px;
+    width:120px;
+    border:none;
+    margin-left:3%;
+    margin-top:1.5%;
+  }
+
+  #description{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
+  }
+
+  #enter:hover,
+  .delete:hover{
+    transform:scale(1.1);
+  }
+
+  #enter:active,
+  .delete:active{
+    transform:scale(0.8);
+  }
+
+  ul{
+    list-style-type: none;
+  }
+  .message{
+    border:3px solid black;
+    width:15%;
+    height:225px;
+    float:left;
+    padding:10px;
+    margin:1%;
+    font-family: 'Source Code Pro', monospace;
+    box-shadow: 8px 10px 1px rgba(0, 0, 0, 0.548);
+    background-color:rgba(220, 220, 220, 0.908);
+    overflow: scroll;
+  }
+
+  .delete{
+    background-color:rgba(255, 0, 0, 0);
+    background-image:url('trash.png');
+    background-size:65%;
+    background-repeat: no-repeat;
+    width:50px;
+    height:50px;
+    border:none;
+    margin:2%;
+  }
+
+  #id{
+    display:none;
+  }
+
+  #name{
+    font-size:30px;
+    margin:0;
+    background:black;
+    color:white;
+    padding:5px;
+    padding-left:20px;
+    padding-right:15px;
+    float:left;
+  }
+
+  #task{
+padding:2px;
+background:red;
+line-height:22px;
+
+  }
+
+  
